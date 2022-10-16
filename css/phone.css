@@ -1,0 +1,61 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+  }
+  
+  #navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+  }
+  /* Home section */
+  #home {
+    height: 775px;
+    padding: 3px;
+  }
+  
+  #home::before {
+    height: 890px;
+  }
+  
+  #home p {
+    font-size: 18px;
+  }
+  #services {
+    flex-direction: column;
+  }
+  #services .box img {
+    height: 130px;
+  }
+  p {
+    font-size: 20px;
+  }
+  
+  #clients {
+    flex-wrap: wrap;
+  }
+  .client-items {
+    padding: 20px;
+  }
+  #contact-box form {
+    width: 80%;
+  }
+  
+  /* Utility classes */
+  .primary {
+    font-size: 40px;
+    padding: 34px;
+    margin: 22px;
+  }
+  .h-primary {
+    font-size: 36px;
+  }
+  .h-secondary {
+    padding: 5px;
+  }
+  .btn {
+    font-size: 13px;
+    padding: 4px 8px;
+    margin: 45px;
+  }
+  
